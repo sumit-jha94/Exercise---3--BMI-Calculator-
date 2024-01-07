@@ -1,0 +1,28 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 400px;
+    margin: 50px auto;
+    text-align:center;
+}
+
+#result{
+    margin: 0;
+    font-size: 50px;
+    text-decoration: underline orangered;
+}
+
+.btn{
+    background-color: black;
+    width: 100%;
+    color: white;
+    font-size: large;
+    padding: 5px;
+    margin: 5px;
+}
+
+.flex{
+    font-size: large;
+}

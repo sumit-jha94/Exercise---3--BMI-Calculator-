@@ -4,8 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
+
+        <h1 id="result">🕺</h1>
+
+        <h2>Calculate Your BMI</h2>
+        <p>BMI Gives You The Rating, If You Are Fit Or Not</p>
+
+        <div class="flex">
+            <input type="text" id="height" placeholder="Enter Your Height">
+            <input type="text" id="weight" placeholder="Enter Your Weight">
+            
+        </div>
+
+        <button class="btn" onclick="bmi()">Calculate Your BMI</button>
+
+    </div>
+
+    <script src="app.js"></script>
     
 </body>
 </html>
